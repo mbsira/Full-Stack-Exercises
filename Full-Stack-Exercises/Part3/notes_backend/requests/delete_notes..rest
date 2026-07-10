@@ -1,1 +1,0 @@
-DELETE https://localhost:3001/api/notes/3
