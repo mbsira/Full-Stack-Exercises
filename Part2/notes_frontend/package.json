@@ -20,5 +20,9 @@
     "@vitejs/plugin-react": "^6.0.2",
     "oxlint": "^1.69.0",
     "vite": "^8.1.0"
-  }
+  },
+  "scripts": {
+  "build:ui": "rm -rf dist && cd ../frontend && npm run build && cp -r dist ../backend",
+  "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
+}
 }
