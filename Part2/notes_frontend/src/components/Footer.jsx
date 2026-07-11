@@ -1,6 +1,6 @@
 const Footer = () => {
   const footerStyle = {
-    color: '#68ce81',
+    color: '#f794a4',
     fontStyle: 'italic',
     marginTop: '50%'
   }
