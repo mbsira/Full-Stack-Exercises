@@ -74,9 +74,9 @@ box-shadow: 5px 3px #ffffff;
 
 .error {
   color: red;
-  background: lightgrey;
-  font-size: 20px;
-  border-style: solid;
+  background: rgb(255, 205, 205);
+  border: none;
+  font-size: 16px;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
